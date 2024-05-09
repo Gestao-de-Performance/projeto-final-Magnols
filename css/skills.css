@@ -1,0 +1,131 @@
+/* Estilo da página index */
+@import 'styles.css';
+
+body {
+    background-color: var(--bg2);
+    margin-bottom: 13%;
+}
+
+.biografia {
+    display: block;
+    align-items: center;
+    margin: 3%;
+    gap: 25px;
+}
+
+.biography {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.paragrafo {
+    margin: 0%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.foto-perfil {
+    height: 100%;
+}
+
+.foto-perfil img {
+    width: 95%;
+}
+
+.titulo-destaque {
+    color: var(--green);
+}
+
+.biografia h1 {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.biografia p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.tituloBloco{
+    font-size: 1.5rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.skillContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skillContainer img{
+    width: 100%;
+}
+
+.skill{
+    padding: 10px 48.7px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.skill h3{
+    color: var(--black);
+    text-align: center;
+}
+
+.htmlColorBorder{
+    border-color: var(--html);
+}
+
+.cssColorBorder{
+    border-color: var(--css);
+}
+
+.jsColorBorder{
+    border-color: var(--js);
+}
+
+.wpColorBorder{
+    border-color: var(--wp);
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        margin-bottom: 25%;
+    }
+    .biography {
+        display: block;
+    }
+    .skillContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .skill {
+        flex: 1 0 100px;
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .skill {
+        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+}
+

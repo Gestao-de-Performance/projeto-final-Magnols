@@ -1,0 +1,28 @@
+/* Estilos gerais */
+:root{
+    --bg1: #f0f0f0;
+    --bg2: #e0e0e0;
+    --bg3: #d0d0d0;
+    --bg4: #333;
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: #25cbd3;
+    --green: #3bd42d;
+    --purple-200: #A369FF;
+
+    --html: #DB4E26;
+    --css: #2862EA;
+    --js: #E2C431;
+    --wp: #207196;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+

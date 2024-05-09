@@ -1,0 +1,53 @@
+/* Estilo da página index */
+@import 'styles.css';
+
+body {
+    background-color: var(--bg1);
+}
+
+.apresentação {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.texto {
+    text-align: center;
+    flex: 1;
+}
+
+.texto p {
+    margin: 1% 0% 0% 10%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main h3.referencia {
+    margin: 0% 0% 1% 0%;
+    font-size: 1.2rem;
+    color: #25cbd3;
+}
+
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    max-width: 60%;
+    height: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .apresentação {
+        flex-direction: column;
+    }
+
+    .texto p {
+        margin: 1% 5% 0% 5%;
+    }
+}
