@@ -2,130 +2,66 @@
 @import 'styles.css';
 
 body {
-    background-color: var(--bg2);
-    margin-bottom: 13%;
+  background-color: var(--bg2); /* Assuming you have a background color defined in styles.css */
+  margin: 0; /* Remove default margin for better control */
 }
 
-.biografia {
-    display: block;
-    align-items: center;
-    margin: 3%;
-    gap: 25px;
+.hero {
+  padding: 80px 0; /* Adjust padding if needed */
 }
 
-.biography {
-    margin: 0%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    gap: 1%;
+.container {
+  display: flex;
+  align-items: center; /* Align content vertically */
+  max-width: 1000px; /* Limit container width */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
-.paragrafo {
-    margin: 0%;
-    display: block;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    gap: 1%;
+.texto {
+  flex: 1; /* Text content takes up 1 unit of space */
+  padding: 20px; /* Add padding for content spacing */
 }
 
-.foto-perfil {
-    height: 100%;
+.imagem {
+  flex: 1; /* Image takes up 1 unit of space */
+  margin-left: 40px; /* Space between image and text */
 }
 
-.foto-perfil img {
-    width: 95%;
+.texto h1 {
+  font-size: 48px; /* Adjust title size if needed */
+  font-weight: 700;
 }
 
-.titulo-destaque {
-    color: var(--green);
+.texto h2 {
+  font-size: 28px; /* Adjust subtitle size if needed */
+  font-weight: 600;
 }
 
-.biografia h1 {
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--blue);
+.texto p {
+  font-size: 16px; /* Adjust paragraph size if needed */
+  line-height: 1.6; /* Adjust line spacing for better readability */
 }
 
-.biografia p {
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-    font-weight: 400;
+.texto .btn {
+  display: inline-block; /* Display button as block-level element */
+  padding: 12px 20px; /* Adjust button padding */
+  font-size: 16px; /* Adjust button font size */
+  text-decoration: none; /* Remove underline from link */
 }
 
-.tituloBloco{
-    font-size: 1.5rem;
-    color: var(--blue);
-    font-weight: bold;
+.imagem img {
+  width: 100%; /* Ensure image fills the container */
+  border-radius: 10px; /* Add rounded corners if desired */
 }
 
-.skillContainer{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
-}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack content on smaller screens */
+  }
 
-.skillContainer img{
-    width: 100%;
-}
-
-.skill{
-    padding: 10px 48.7px;
-    border: 2px solid;
-    border-radius: 10px;
-}
-
-.skill h3{
-    color: var(--black);
-    text-align: center;
-}
-
-.htmlColorBorder{
-    border-color: var(--html);
-}
-
-.cssColorBorder{
-    border-color: var(--css);
-}
-
-.jsColorBorder{
-    border-color: var(--js);
-}
-
-.wpColorBorder{
-    border-color: var(--wp);
-}
-
-@media screen and (max-width: 992px) {
-    body {
-        margin-bottom: 25%;
-    }
-    .biography {
-        display: block;
-    }
-    .skillContainer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    .skill {
-        flex: 1 0 100px;
-        max-width: calc(50% - 10px);
-    }
-}
-
-@media screen and (max-width: 412px) {
-    .skill {
-        width: calc(100% - 20px);
-        max-width: calc(100% - 20px);
-        margin: 10px auto;
-    }
+  .texto, .imagem {
+    flex: 1; /* Occupy full width when stacked */
+    margin-left: 0; /* Remove margin on smaller screens */
+  }
 }
 
