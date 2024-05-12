@@ -4,69 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soluções Digitais</title>
-    <meta name="description" content="Desenvolvido durante a escola de programadores da faculdade Uníntese"/>
-    <meta name="keywords" content="mago, site do aprediz, escola de programadores, programador, HTML, CSS, JavaScript, PROGRAMADORES"/>
-    <meta name="author" content="Magno Silva"/>
-    <link rel="shortcut icon" href="img/mp_ico.ico" type="image/x-icon"/>
+    <meta name="description" content="Desenvolvedor Front-end com foco em React e experiência em HTML, CSS e JavaScript.">
+    <meta name="keywords" content="Magno Silva, Desenvolvedor Front-end, React, HTML, CSS, JavaScript, Portfólio">
+    <meta name="author" content="Magno Silva">
+    <link rel="shortcut icon" href="img/mp_ico.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="stylesheet" href="css/header.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
 </head>
 <body>
+    <header class="cabecalho">
+        <a href="#index.html" class="link-logo">
+            <img src="img/MP_logo.webp" alt="Logo MP Soluções Digitais">
+        </a>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
 
-<header class="cabecalho">
-    <a href="index.html" class="link-logo">
-        <img src="img/MP_logo.webp" alt="Logo MP Soluções Digitais"/>
-    </a>
-    <nav class="menu">
-        <ul>
-            <li><a href="skills.html ">Sobre mim</a></li>
-            <li><a href="projects.html">Projetos</a></li>
-            <li><a href="contact.html">Contato</a></li>
-        </ul>
-    </nav>
-</header>
+        <div class="botoes-navegacao escondido">
+            <button class="btn-navegacao" data-secao="#principal">Principal</button>
+            <button class="btn-navegacao" data-secao="#sobre-mim">Sobre Mim</button>
+            <button class="btn-navegacao" data-secao="#projetos">Projetos</button>
+            <button class="btn-navegacao" data-secao="#contato">Contato</button>
+        </div>        
+    </header>
 
-<main class="apresentação">
-    <div class="texto">
-        <h3 class="referencia">(portfolio_2024)</h3>
-        <h1 class="title">Magno Silva</h1>
-        <h2>Um Programador em Ascensão</h2>
-        <p>"Olá! Sou o Magno, um intérprete de
-            <abbr title="Lingua Brasileira de Sinais">Libras</abbr> que está se aventurando na programação. Trabalho como programador, onde mantenho, depuro e soluciono problemas em sistemas e software para garantir que tudo funcione perfeitamente.
-                    "
-        </p>
-    </div>
+    <main class="page">
+        <section class="hero" id="principal">
+            <div class="texto">
+                <h3 class="referencia">(portfolio_2024)</h3>
+                <h1 class="title">Magno Silva</h1>
+                <h2>Desenvolvedor Front-end</h2>
+                <p>"Olá! Sou o Magno, um desenvolvedor apaixonado por tecnologia e com foco em criar interfaces web intuitivas e acessíveis. Acredito que a web tem o poder de conectar pessoas e transformar ideias em realidade. Atualmente, estou me especializando em React e buscando aprimorar minhas habilidades em HTML, CSS e JavaScript. Além disso, me interesso por acessibilidade digital e pretendo contribuir para a construção de uma internet mais inclusiva."</p>
+                <a href="https://www.linkedin.com/in/magno-silva-4b7711261/" target="_blank" class="btn btn-primary">Meu LinkedIn</a>
+            </div>
+            <div class="imagem">
+                <img src="img/dev.webp" alt="Programação WEB">
+            </div>
+        </section>
+
+        <section class="sobre-mim" id="sobre-mim">
+            <div class="foto-perfil">
+                <img src="img/foto-perfil.webp" alt="Magno Silva, Desenvolvedor Front-end">
+            </div>
+            <div class="descricao">
+                <h1>Sobre Mim</h1>
+                <p>Olá! Sou o Magno Pereira da Silva, desenvolvedor Front-end com especialização em React. Sou apaixonado por tecnologia e acredito que a web tem o poder de conectar pessoas e transformar ideias em realidade. Atualmente, estou cursando o curso de Análise e Desenvolvimento de Sistemas na Faculdade Uníntese e me dedico a aprimorar minhas habilidades em HTML, CSS e JavaScript.</p>
+                <p>Além da minha formação em desenvolvimento, sou intérprete de LIBRAS e trago para o meu trabalho a organização, a aplicação e o desejo constante de ajudar os outros para o bem da equipe. No entanto, reconheço que, às vezes, tenho a priorizar ajudar os outros em detrimento de mim mesmo, mas estou trabalhando nisso. Sou caseiro
+                </div>
+            </section>
     
-    <div class="imagem">
-        <img src="img/dev.webp" alt="Programação WEB">
-    </div>
-</main>
-
-<footer class="rodape">
-    <section>
-        <p>Acesse minhas redes:</p>
-    </section>
-
-    <section class="links">
-        <div class="redsociais">
-            <a href=" https://github.com/Magnols"><img src="img/github.webp">GitHub</a>
-        </div>
-        <div class="redsociais ">
-            <a href="https://instagram.com/magno_mpsilva?igshid=MzMyNGUyNmU2YQ=="><img src="img/insta.webp">Instagran</a>
-        </div>
-        <div class="redsociais ">
-            <a href="https://www.linkedin.com/in/magno-silva-4b7711261/"><img src="img/linkedin.webp">Linkedin</a>
-        </div>
-    </section>
-
-    <section class="logo">
-        <img src="img/MP_logo.webp" alt="Logo MP Soluções Digitais"/>
-        <p>© 2024 MP CodeMasters.</p>
-    </section>
-</footer>
-
-</body>
-</html>
+            <section class="projetos" id="projetos">
+                <h1>Projetos</h1>
+                <div class="card-projeto">
+                    <img src="img/projeto1.webp" alt="Projeto 1">
+                    <div class="texto-card">
+                        <h4>Nome do Projeto</h4>
+                        <p>Descrição breve do projeto.</p>
+                        <a href="#" class="btn btn-secundario">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <img src="img/projeto2.webp" alt="Projeto 2">
+                    <div class="texto-card">
+                        <h4>Nome do Projeto</h4>
+                        <p>Descrição breve do projeto.</p>
+                        <a href="#" class="btn btn-secundario">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <img src="img/projeto3.webp" alt="Projeto 3">
+                    <div class="texto-card">
+                        <h4>Nome do Projeto</h4>
+                        <p>Descrição breve do projeto.</p>
+                        <a href="#" class="btn btn-secundario">Ver mais</a>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="contato" id="contato">
+                <h1>Contato</h1>
+                <form action="" method="post">
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </section>
+        </main>
+    
+        <footer class="rodape">
+            <p>&copy; 2024 Magno Silva - Desenvolvedor Front-end</p>
+            <ul class="redes-sociais">
+                <li><a href="https://www.linkedin.com/in/magno-silva-4b7711261/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+    </html>
+    

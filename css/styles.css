@@ -18,11 +18,244 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.main {
+    padding: 40px 0;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .texto {
+    max-width: 500px;
+}
+
+.hero .texto h3 {
+    color: #999;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .texto h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero .texto h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero .texto p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.hero .texto .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .texto .btn:hover {
+    background-color: #0056b3;
+}
+
+.hero .imagem {
+    max-width: 400px;
+}
+
+.hero .imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre-mim {
+    background-color: #fff;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-mim .foto-perfil {
+    max-width: 300px;
+}
+
+.sobre-mim .foto-perfil img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre-mim .descricao {
+    max-width: 600px;
+}
+
+.sobre-mim .descricao h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sobre-mim .descricao p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.projetos {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-projeto {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+}
+
+.card-projeto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1
+    border-radius: 10px;
+}
+
+.card-projeto .texto-card {
+    margin-top: 20px;
+}
+
+.card-projeto .texto-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-projeto .texto-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.card-projeto .texto-card .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-projeto .texto-card .btn:hover {
+    background-color: #0056b3;
+}
+
+.contato {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contato h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contato .campo {
+    margin-bottom: 20px;
+}
+
+.contato .campo label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato .campo input,
+.contato .campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato .campo textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contato .campo .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato .campo .btn:hover {
+    background-color: #0056b3;
+}
+
+.rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape p {
+    margin-bottom: 10px;
+}
+
+.rodape ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-*{
-    font-family: "Montserrat", sans-serif;
+.rodape li {
+    display: inline-block;
+    margin-right: 15px;
 }
 
+.rodape a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.rodape i {
+    margin-right: 5px;
+}
