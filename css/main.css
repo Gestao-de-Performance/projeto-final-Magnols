@@ -1,67 +1,45 @@
 /* Estilo da página index */
 @import 'styles.css';
 
-.main {
-    padding: 40px 0;
+body {
+    background-color: var(--bg1);
 }
 
-.hero {
-    background-color: #fff;
-    padding: 80px 0;
+.apresentação {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
-.hero .texto {
-    max-width: 500px;
+.texto {
+    text-align: center;
+    flex: 1;
 }
 
-.hero .texto h3 {
-    color: #999;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.hero .texto h1 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.hero .texto h2 {
-    font-size: 24px;
+.texto p {
+    margin: 1% 0% 0% 10%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 
-.hero .texto p {
-    line-height: 1.6;
-    margin-bottom: 20px;
+main h3.referencia {
+    margin: 0% 0% 1% 0%;
+    font-size: 1.2rem;
+    color: #25cbd3;
 }
 
-.hero .texto .btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
-.hero .texto .btn:hover {
-    background-color: #0056b3;
-}
-
-.hero .imagem {
-    max-width: 400px;
-}
-
-.hero .imagem img {
-    width: 100%;
+.imagem img {
+    max-width: 60%;
     height: auto;
-    border-radius: 10px;
 }
 
 @media screen and (max-width: 992px) {

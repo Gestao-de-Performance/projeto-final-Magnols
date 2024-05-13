@@ -36,40 +36,6 @@ header.cabecalho ul li:not(:last-child) {
     text-decoration: underline;
 }
 
-.botoes-navegacao.escondido {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.botoes-navegacao {
-    position: fixed; /* Torna os botões fixos na tela */
-    top: 50%; /* Posiciona os botões no meio vertical da tela */
-    transform: translateY(-50%); /* Compensa a metade da altura dos botões */
-    right: 20px; /* Distancia os botões 20px da borda direita */
-    z-index: 100; /* Garante que os botões fiquem acima de outros elementos */
-    opacity: 1;
-}
-
-.btn-navegacao {
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-navegacao:hover {
-    background-color: #0056b3;
-}
-
-.botoes-navegacao img {
-    width: 25px;
-}
-
 @media screen and (min-width:992px) {
     header {
         position: relative;

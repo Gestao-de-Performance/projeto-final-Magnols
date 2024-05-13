@@ -9,6 +9,8 @@
     --blue: #25cbd3;
     --green: #3bd42d;
     --purple-200: #A369FF;
+    --primary-colo:#054cf1;
+    --primary-color-dark:#092a79;
 
     --html: #DB4E26;
     --css: #2862EA;
@@ -23,60 +25,6 @@ body {
     padding: 0;
     background-color: #f0f0f0;
     color: #333;
-}
-
-.projetos {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.card-projeto {
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 350px;
-}
-
-.card-projeto img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 1
-    border-radius: 10px;
-}
-
-.card-projeto .texto-card {
-    margin-top: 20px;
-}
-
-.card-projeto .texto-card h4 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.card-projeto .texto-card p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.card-projeto .texto-card .btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.card-projeto .texto-card .btn:hover {
-    background-color: #0056b3;
 }
 
 .contato {
